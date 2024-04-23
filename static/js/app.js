@@ -62,7 +62,6 @@ function plotBubbleChart(id_value){
 
 // bar chart
 function plotBarChart(id_value){
-
     let arrObject = [];
     const element = samples.filter(v=>v.id == id_value)[0];     
     for(let i=0; i<element.otu_ids.length;i++){
